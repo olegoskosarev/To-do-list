@@ -1,0 +1,39 @@
+main {
+    width: 700px;
+    height: 450px;
+    margin: 100px auto;
+    border: 2px solid #EEE;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+}
+
+#btn-add-project {
+    margin: 0px 0px 5px 550px;
+}
+
+#btn-add-task {
+    margin: 5px 0px 0px 550px;
+}
+
+#projects {
+    width: 650px;
+    height: 250px;
+    margin: 0px auto;
+}
+
+ol li {
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+ol li:hover {
+    background-color: #007FFF;
+}

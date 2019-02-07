@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To Do List Application</title>
+    <link rel="stylesheet" href="jquery-ui.min.css">
+    <link rel="stylesheet" href="main.css">
+    <script src="jquery.js"></script>
+    <script src="jquery-ui.min.js"></script>
+</head>
+<body>
+
+    <main>
+        <h2>To Do List</h2>
+        <button id="btn-add-project">Add Project</button>
+
+        <div id="projects">
+            <ul id="main">
+                <!-- <li><a href="#personal">Personal</a><span class="ui-icon ui-icon-close" role="presentation">Remove Tab</span></li>
+                <li><a href="#work">Work</a><span class="ui-icon ui-icon-close" role="presentation">Remove Tab</span></li> -->
+                <li><a href="#personal">Personal</a></li>
+                <li><a href="#work">Work</a></li>
+            </ul>
+            <ol id="personal">
+                <li><input type="checkbox">Doctor appointment</li>
+                <li><input type="checkbox">Call the plumber</li>     
+            </ol>
+            <ol id="work">
+                <li><input type="checkbox">Complete test case document</li>
+                <li><input type="checkbox">Meet project manager</li>     
+            </ol>
+        </div>
+
+        <button id="btn-add-task">Add Task</button>
+
+        <div id="project-dialog" title="Add a project" style="display: none">
+            <label for="new-project">Project name:</label>
+            <input type="text" id="new-project">
+        </div>
+
+        <div id="task-dialog" title="Add a task" style="display: none">
+            <label for="new-task">Task name:</label>
+            <input type="text" id="new-task">
+        </div>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
